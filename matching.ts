@@ -1,7 +1,7 @@
 function naivsar(text: string, pattern:string): number[]{
   const result: number[]=[];
   const n = text.length;
-  const m = patter.length;
+  const m = pattern.length;
 
   for(let i =0; i< n - m; i++){
     let j =0;
